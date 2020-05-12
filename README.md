@@ -28,5 +28,5 @@ The website consists of 2 pages :
     1. Clone repo.
     2. Open index.html
 2. Lazy way
-    1. You can find a deployed vesion here in this [link]().
+    1. You can find a deployed vesion here in this [link](https://mostafaanwar.github.io/personal-portfolio-site/).
 
