@@ -23,10 +23,10 @@ The website consists of 2 pages :
             3. Contacts navigate to home page and scroll to contact me.
 
 
-
-
-
-
-
-You can find a deployed vesion here in this [link]().
+# How to try it
+1. Try hard way
+    1. Clone repo.
+    2. Open index.html
+2. Lazy way
+    1. You can find a deployed vesion here in this [link]().
 
