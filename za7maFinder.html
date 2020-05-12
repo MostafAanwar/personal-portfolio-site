@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <button
+    type="button"
+    name="dark_light"
+    onclick="toggleDarkLight()"
+    id="btntxt"
+    title="Toggle dark/light mode"
+  >
+    🌛
+  </button>
+  <header>
+    <div class="header">
+      <a href="index.html" id="logo">Mostafa Anwar</a>
+      <input type="checkbox" id="chk" />
+      <label for="chk" class="show-menu-btn">
+        <i class="fas fa-ellipsis-h"></i>
+      </label>
+      <ul class="menu">
+        <a href="index.html">Home</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Contact">Contact</a>
+        <label for="chk" class="hide-menu-btn">
+          <i class="fas fa-times"></i>
+        </label>
+      </ul>
+    </div>
+    <img
+      class="displayed"
+      src="img/za7mafinder.jpg"
+      width="300"
+      height="300"
+      alt="a picture of the project"
+    />
+  </header>
+  <body class="dark-mode" id="cls" style="width: 100%;">
+    <div class="content">
+      <div class="about">
+        <h3>About this project</h3>
+        <p>
+          This is a prototype website was made part of crisis Hackx MENA
+          hackathon to help against Covid-19. In the current days we are living
+          in corona-virus known as COVID-19 has made us change our daily routine
+          drastically which caused a lot of changes whether do we work from home
+          or we have to go down and work from the office and a lot of other
+          aspects of our lives has changed. Most of the countries are under
+          complete or partial lock-down or a curfew, for example in Egypt the
+          lock-down starts from the night so people are only allowed to go in
+          the morning mostly for essential needs such as getting food supplies
+          or medicines. The main problem here is if people are not cautious
+          enough when going around (if not keeping social distance and other
+          precautions) so in our efforts to try and minimize that and reduce
+          people gatherings as much as possible in order to reduce the spread of
+          the virus we made a website that would help people to search in
+          categories ( supermarkets, pharmacies ...etc ) in the areas around
+          them depending on the crowdedness of the place from the intended
+          category. In addition to that, you can also search by how far/close is
+          a needed place in order for us to help you go to a less crowded shop
+          or reschedule your shopping.
+        </p>
+        <center>
+          <form action="https://sites.google.com/view/za7mafinder/index">
+            <input type="submit" value="Go to deployment" />
+          </form>
+        </center>
+      </div>
+    </div>
+
+    <br />
+
+    <hr />
+    <footer id="Contact">
+      <div>
+        <ul class="icons">
+          <li>
+            <a href="https://codepen.io/mostafa_anwar"
+              ><span class="fab fa-codepen"></span
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/MostafAanwar"
+              ><span class="fab fa-github"></span
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/mostafa-anwar/"
+              ><span class="fab fa-linkedin"></span
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
