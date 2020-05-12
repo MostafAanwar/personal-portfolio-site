@@ -1,11 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <button
+    type="button"
+    name="dark_light"
+    onclick="toggleDarkLight()"
+    id="btntxt"
+    title="Toggle dark/light mode"
+  >
+    🌛
+  </button>
+  <header>
+    <div class="header">
+      <a href="index.html" id="logo">Mostafa Anwar</a>
+      <input type="checkbox" id="chk" />
+      <label for="chk" class="show-menu-btn">
+        <i class="fas fa-ellipsis-h"></i>
+      </label>
+      <ul class="menu">
+        <a href="index.html">Home</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Contact">Contact</a>
+        <label for="chk" class="hide-menu-btn">
+          <i class="fas fa-times"></i>
+        </label>
+      </ul>
+    </div>
+    <img
+      class="displayed"
+      src="img/pokemon.jpg"
+      width="200"
+      width="200"
+      alt="a picture of pokemon"
+    />
+  </header>
+  <body class="dark-mode" id="cls" style="width: 100%;">
+    <div class="content">
+      <div class="about">
+        <h2>About this project</h2>
+        <p>
+          This is a project that uses different APIs to get some pokemon data
+          and randomly choose 2 pokemons fight. Afterwards when the 2 pokemons
+          are chosen the program checks the type of each if one can beat the
+          other a winner is declared otherwise, no winner can't be determined.
+        </p>
+        <center>
+        <form action="https://mostafaanwar.github.io/pokemonduel/">
+          <input type="submit" value="Go to deployment" />
+        </form>
+      </center>
+    <center>
+        <form action="https://github.com/MostafAanwar/pokemonduel">
+          <input type="submit" value="Go to the code" />
+        </form>
+        </center>
+      </div>
+    </div>
+
+    <br />
+
+    <hr />
+    <footer id="Contact">
+      <div>
+        <ul class="icons">
+          <li>
+            <a href="https://codepen.io/mostafa_anwar"
+              ><span class="fab fa-codepen"></span
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/MostafAanwar"
+              ><span class="fab fa-github"></span
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/mostafa-anwar/"
+              ><span class="fab fa-linkedin"></span
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
